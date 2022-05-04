@@ -1,3 +1,4 @@
+import { ApiService } from '@alb/api';
 import { Component } from '@angular/core';
 
 @Component({
@@ -14,10 +15,15 @@ import { Component } from '@angular/core';
       />
     </div>
     <alb-ui-ui></alb-ui-ui>
+    <h1>
+      {{ data$ | async | json }}
+    </h1>
     <router-outlet></router-outlet>
   `,
   styles: [],
 })
 export class AppComponent {
   title = 'admin';
+  data$ = this.api.getData$();
+  constructor(private readonly api: ApiService) {}
 }

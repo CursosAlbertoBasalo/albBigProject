@@ -1,3 +1,4 @@
+import { ApiModule } from '@alb/api';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { UiModule } from 'projects/ui/src/public-api';
@@ -6,7 +7,7 @@ import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, AppRoutingModule, UiModule],
+  imports: [BrowserModule, AppRoutingModule, UiModule, ApiModule],
   providers: [],
   bootstrap: [AppComponent],
 })

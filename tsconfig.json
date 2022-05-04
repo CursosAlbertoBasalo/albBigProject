@@ -23,11 +23,11 @@
       "dom"
     ],
     "paths": {
-      "api": [
+      "@alb/api": [
         "dist/api/api",
         "dist/api"
       ],
-      "ui": [
+      "@alb/ui": [
         "dist/ui/ui",
         "dist/ui"
       ]
