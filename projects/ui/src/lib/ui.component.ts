@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'alb-ui-ui',
-  template: ` <h2>ui works!</h2> `,
+  template: ` <h1>UI works for ALDABA!</h1> `,
   styles: [],
 })
 export class UiComponent implements OnInit {
