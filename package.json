@@ -10,6 +10,7 @@
     "build:admin": "ng build --project=admin",
     "build:ui": "ng build --project=ui",
     "build:api": "ng build --project=api",
+    "watch:api": "ng build --project=api --watch --configuration development",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },

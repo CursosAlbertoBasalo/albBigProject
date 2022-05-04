@@ -15,9 +15,9 @@ import { Component } from '@angular/core';
       />
     </div>
     <alb-ui-ui></alb-ui-ui>
-    <h1>
+    <h2>
       {{ data$ | async | json }}
-    </h1>
+    </h2>
     <router-outlet></router-outlet>
   `,
   styles: [],
